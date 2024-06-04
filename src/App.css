@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.my-container{
+  width: 90vw;
+  height:70vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(28, 27, 27);
+}
+.mybody{
+  background-color: rgb(28, 27, 27);
+  width: 100vw;
+  height: 100vh;
+  margin-top: 0%;
+  padding-top: 0%;
+
+}
+
+.control-row{
+  margin-top: 10px;
+}
+
+.number-input{
+  max-width: 110px;
+}
+.control-warning{
+  margin-bottom: 10px;
+}
